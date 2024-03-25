@@ -1,5 +1,3 @@
-#User function Template for python3
-
 class Solution:
     def maximumWeight(self, n, edges, q, queries):
         uf = list(range(n))
