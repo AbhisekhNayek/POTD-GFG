@@ -3,9 +3,6 @@ from typing import List
 class Solution:
 
     def findClosest(self, n : int, k : int, arr : List[int]) -> int:
-            # code here
-            # Nishant Singh
-            # National Institute of Technology Calicut
             left,right,ans=0,n-1,0
             while left<=right:
                 mid=left+(right-left)//2
